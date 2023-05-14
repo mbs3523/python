@@ -1,6 +1,4 @@
 def f_dict(dicts,d={},keys=''):
-    if isinstance(dicts,dict):
-        return 'Not dict'
     for key in dicts:
         if isinstance(dicts.get(key),dict):
             if keys == '':
